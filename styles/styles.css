@@ -44,7 +44,8 @@ header {
     background: var(--azul-claro);
     position: absolute;
     width: 100vw;
-    height: 286px;
+    /* height: 286px; */
+    height: 313px;
     left: 0px;
     top: 524px;
     z-index: -1000;
@@ -83,12 +84,56 @@ header {
     text-transform: capitalize;
 
     color: var(--azul-claro);
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
 
 .hero__img {
     width: 1108px;
-    height: 897px;
+    /* height: 897px; */
+    height: 757px;
+    /* height: 80vh; */
 }
 
+.form form{
+    display: flex;
+    flex-direction: column;
+}
 
+.form__label {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.form__input {
+    margin-bottom: 32px;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+.form__btn {
+    background-color: var(--laranja-escuro);
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+.sociais {
+    background-color: var(--laranja-escuro);
+    margin-top: 40px;
+    height: 100vv;
+}
+
+.sociais__lista {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.sociais__lista a {
+    padding-left: 16px;
+}
