@@ -120,6 +120,16 @@ header {
     padding: 24px;
     border: none;
     border-radius: 8px;
+    transition: all ease-in-out 250ms;
+    box-shadow: 0px 4px 4px rgba(5, 44, 136, 0.16);
+}
+
+.form__btn:hover {
+    cursor: pointer;
+    background-color: #ffbb33;
+    transform: scale(99%);
+    transition: all ease-in-out 250ms;
+    box-shadow: none;
 }
 
 .sociais {
@@ -136,4 +146,9 @@ header {
 
 .sociais__lista a {
     padding-left: 16px;
+}
+
+.sociais__lista a img:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 250ms;
 }
